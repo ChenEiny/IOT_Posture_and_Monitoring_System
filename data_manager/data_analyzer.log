@@ -1,0 +1,16 @@
+2024-09-30 01:02:06,861 : INFO : Data Analyzer started and subscribed to DHT sensors.
+2024-09-30 01:02:58,855 : INFO : Received message on topic iot/sensors/dht: Temperature: 27.0 C, Humidity: 33.0%
+2024-09-30 01:03:08,882 : INFO : Received message on topic iot/sensors/dht: Temperature: 20.9 C, Humidity: 56.3%
+2024-09-30 01:03:18,858 : INFO : Received message on topic iot/sensors/dht: Temperature: 22.8 C, Humidity: 39.5%
+2024-09-30 01:03:28,851 : INFO : Received message on topic iot/sensors/dht: Temperature: 27.1 C, Humidity: 39.4%
+2024-09-30 01:03:38,849 : INFO : Received message on topic iot/sensors/dht: Temperature: 22.3 C, Humidity: 51.5%
+2024-09-30 01:03:48,844 : INFO : Received message on topic iot/sensors/dht: Temperature: 24.1 C, Humidity: 31.3%
+2024-09-30 01:03:58,860 : INFO : Received message on topic iot/sensors/dht: Temperature: 24.3 C, Humidity: 35.7%
+2024-09-30 01:04:08,860 : INFO : Received message on topic iot/sensors/dht: Temperature: 26.7 C, Humidity: 31.8%
+2024-09-30 01:04:18,859 : INFO : Received message on topic iot/sensors/dht: Temperature: 29.8 C, Humidity: 44.6%
+2024-09-30 01:04:18,859 : WARNING : High temperature detected: 29.8°C
+2024-09-30 01:04:18,859 : INFO : Alert triggered: <p style='color:blue;'>High temperature detected: 29.8°C</p>
+2024-09-30 01:04:28,853 : INFO : Received message on topic iot/sensors/dht: Temperature: 26.6 C, Humidity: 49.8%
+2024-09-30 01:04:38,843 : INFO : Received message on topic iot/sensors/dht: Temperature: 23.8 C, Humidity: 44.1%
+2024-09-30 01:04:48,858 : INFO : Received message on topic iot/sensors/dht: Temperature: 23.8 C, Humidity: 30.1%
+2024-09-30 01:04:58,858 : INFO : Received message on topic iot/sensors/dht: Temperature: 22.5 C, Humidity: 39.8%

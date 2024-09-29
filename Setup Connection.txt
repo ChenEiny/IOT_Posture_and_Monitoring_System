@@ -1,0 +1,31 @@
+Connecting to HiveMQ
+Open HiveMQ Websockets Client
+
+Navigate to HiveMQ Websockets Client.
+Host broker.hivemq.com
+Port 8000 (this is for websockets)
+Ensure you leave SSL unchecked unless you are using port 8883 with SSL.
+ClientID You can leave this auto-generated or create your own.
+Connecting to HiveMQ Broker
+
+Enter these values into your application’s ConnectionDock input fields.
+Host broker.hivemq.com
+Port 1883 (for MQTT connection without SSL) or 8000 (for websockets)
+UsernamePassword Can be left blank unless you have specific credentials.
+After Connection
+
+Once connected, you can subscribe to topics and start sending or receiving messages from the HiveMQ broker using the Publish and Subscribe functionalities in your GUI.
+Testing the Subscription
+
+Use the HiveMQ Websockets client (shown in your screenshot) to publish messages on the topic you’re subscribing to from your application.
+Ensure that both your application and the WebSocket client are using the same topic for subscribing and publishing messages.
+Notes
+Ensure that your application GUI first establishes a successful connection to HiveMQ before you try subscribing to or publishing topics.
+The logger will help you track connection issues, and the MQTT on_message will handle incoming messages.
+Let me know how the updated code works for your integration with HiveMQ, and feel free to share any issues or logs!
+
+
+The idea of your project is to develop an IoT-Based Health and Posture Monitoring System. 
+This system monitors posture and environmental conditions in real-time using sensors like pressure sensors, accelerometers, and temperature/humidity sensors.
+ The project is designed to collect data via MQTT, display relevant information in the GUI, and store it in a local/cloud database.
+  The system also sends warnings or alerts for poor posture or uncomfortable environmental conditions, and it allows users to publish and subscribe to topics dynamically.

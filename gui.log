@@ -1,0 +1,120 @@
+2024-09-30 01:01:32,382 : INFO : PostureDock initialized.
+2024-09-30 01:01:33,021 : INFO : Main window initialized with all docks.
+2024-09-30 01:01:48,762 : INFO : Attempting to connect to broker.hivemq.com:1883
+2024-09-30 01:01:48,992 : INFO : Successfully connected to broker.hivemq.com:1883
+2024-09-30 01:02:58,850 : INFO : Message received from iot/sensors/dht: Temperature: 27.0 C, Humidity: 33.0%
+2024-09-30 01:02:58,983 : INFO : Data logged to database - Topic: iot/sensors/dht, Message: Temperature: 27.0 C, Humidity: 33.0%
+2024-09-30 01:03:06,140 : INFO : Message received from iot/sensors/pressure: Seat Pressure: 53, Back Pressure: 86
+2024-09-30 01:03:06,367 : INFO : Data logged to database - Topic: iot/sensors/pressure, Message: Seat Pressure: 53, Back Pressure: 86
+2024-09-30 01:03:06,367 : INFO : Pressure data received - Seat: 53, Back: 86
+2024-09-30 01:03:07,598 : INFO : Message received from iot/sensors/accelerometer: Tilt X: -0.95, Tilt Y: -4.9, Tilt Z: -3.66
+2024-09-30 01:03:07,695 : INFO : Data logged to database - Topic: iot/sensors/accelerometer, Message: Tilt X: -0.95, Tilt Y: -4.9, Tilt Z: -3.66
+2024-09-30 01:03:07,697 : INFO : Accelerometer data received - X: -0.95, Y: -4.9
+2024-09-30 01:03:07,697 : INFO : Both data sets received, calculating posture.
+2024-09-30 01:03:07,698 : INFO : Triggering alert: Bad posture detected!
+2024-09-30 01:03:07,698 : INFO : Published message to iot/alerts: Bad posture detected!
+2024-09-30 01:03:07,775 : INFO : Message received from iot/alerts: Bad posture detected!
+2024-09-30 01:03:07,775 : INFO : Ignoring message received from the broker as it was recently published by this client.
+2024-09-30 01:03:08,844 : INFO : Message received from iot/sensors/dht: Temperature: 20.9 C, Humidity: 56.3%
+2024-09-30 01:03:08,945 : INFO : Data logged to database - Topic: iot/sensors/dht, Message: Temperature: 20.9 C, Humidity: 56.3%
+2024-09-30 01:03:18,846 : INFO : Message received from iot/sensors/dht: Temperature: 22.8 C, Humidity: 39.5%
+2024-09-30 01:03:18,943 : INFO : Data logged to database - Topic: iot/sensors/dht, Message: Temperature: 22.8 C, Humidity: 39.5%
+2024-09-30 01:03:21,138 : INFO : Message received from iot/sensors/pressure: Seat Pressure: 66, Back Pressure: 64
+2024-09-30 01:03:21,289 : INFO : Data logged to database - Topic: iot/sensors/pressure, Message: Seat Pressure: 66, Back Pressure: 64
+2024-09-30 01:03:21,290 : INFO : Pressure data received - Seat: 66, Back: 64
+2024-09-30 01:03:22,481 : INFO : Message received from iot/sensors/accelerometer: Tilt X: -2.33, Tilt Y: -5.18, Tilt Z: -1.93
+2024-09-30 01:03:22,595 : INFO : Data logged to database - Topic: iot/sensors/accelerometer, Message: Tilt X: -2.33, Tilt Y: -5.18, Tilt Z: -1.93
+2024-09-30 01:03:22,596 : INFO : Accelerometer data received - X: -2.33, Y: -5.18
+2024-09-30 01:03:22,596 : INFO : Both data sets received, calculating posture.
+2024-09-30 01:03:22,596 : INFO : Triggering alert: Good posture!
+2024-09-30 01:03:22,597 : INFO : Published message to iot/alerts: Good posture!
+2024-09-30 01:03:22,674 : INFO : Message received from iot/alerts: Good posture!
+2024-09-30 01:03:22,674 : INFO : Ignoring message received from the broker as it was recently published by this client.
+2024-09-30 01:03:28,846 : INFO : Message received from iot/sensors/dht: Temperature: 27.1 C, Humidity: 39.4%
+2024-09-30 01:03:28,981 : INFO : Data logged to database - Topic: iot/sensors/dht, Message: Temperature: 27.1 C, Humidity: 39.4%
+2024-09-30 01:03:36,108 : INFO : Message received from iot/sensors/pressure: Seat Pressure: 80, Back Pressure: 99
+2024-09-30 01:03:36,233 : INFO : Data logged to database - Topic: iot/sensors/pressure, Message: Seat Pressure: 80, Back Pressure: 99
+2024-09-30 01:03:36,234 : INFO : Pressure data received - Seat: 80, Back: 99
+2024-09-30 01:03:37,475 : INFO : Message received from iot/sensors/accelerometer: Tilt X: 8.87, Tilt Y: -1.39, Tilt Z: 8.98
+2024-09-30 01:03:37,638 : INFO : Data logged to database - Topic: iot/sensors/accelerometer, Message: Tilt X: 8.87, Tilt Y: -1.39, Tilt Z: 8.98
+2024-09-30 01:03:37,640 : INFO : Accelerometer data received - X: 8.87, Y: -1.39
+2024-09-30 01:03:37,640 : INFO : Both data sets received, calculating posture.
+2024-09-30 01:03:37,640 : INFO : Triggering alert: Bad posture detected!
+2024-09-30 01:03:37,641 : INFO : Published message to iot/alerts: Bad posture detected!
+2024-09-30 01:03:37,718 : INFO : Message received from iot/alerts: Bad posture detected!
+2024-09-30 01:03:37,719 : INFO : Ignoring message received from the broker as it was recently published by this client.
+2024-09-30 01:03:38,843 : INFO : Message received from iot/sensors/dht: Temperature: 22.3 C, Humidity: 51.5%
+2024-09-30 01:03:38,978 : INFO : Data logged to database - Topic: iot/sensors/dht, Message: Temperature: 22.3 C, Humidity: 51.5%
+2024-09-30 01:03:48,840 : INFO : Message received from iot/sensors/dht: Temperature: 24.1 C, Humidity: 31.3%
+2024-09-30 01:03:48,996 : INFO : Data logged to database - Topic: iot/sensors/dht, Message: Temperature: 24.1 C, Humidity: 31.3%
+2024-09-30 01:03:51,104 : INFO : Message received from iot/sensors/pressure: Seat Pressure: 98, Back Pressure: 80
+2024-09-30 01:03:51,243 : INFO : Data logged to database - Topic: iot/sensors/pressure, Message: Seat Pressure: 98, Back Pressure: 80
+2024-09-30 01:03:51,243 : INFO : Pressure data received - Seat: 98, Back: 80
+2024-09-30 01:03:52,505 : INFO : Message received from iot/sensors/accelerometer: Tilt X: 2.18, Tilt Y: 2.01, Tilt Z: -9.46
+2024-09-30 01:03:52,660 : INFO : Data logged to database - Topic: iot/sensors/accelerometer, Message: Tilt X: 2.18, Tilt Y: 2.01, Tilt Z: -9.46
+2024-09-30 01:03:52,661 : INFO : Accelerometer data received - X: 2.18, Y: 2.01
+2024-09-30 01:03:52,661 : INFO : Both data sets received, calculating posture.
+2024-09-30 01:03:52,661 : INFO : Triggering alert: Bad posture detected!
+2024-09-30 01:03:52,662 : INFO : Published message to iot/alerts: Bad posture detected!
+2024-09-30 01:03:52,740 : INFO : Message received from iot/alerts: Bad posture detected!
+2024-09-30 01:03:52,740 : INFO : Ignoring message received from the broker as it was recently published by this client.
+2024-09-30 01:03:58,851 : INFO : Message received from iot/sensors/dht: Temperature: 24.3 C, Humidity: 35.7%
+2024-09-30 01:03:59,015 : INFO : Data logged to database - Topic: iot/sensors/dht, Message: Temperature: 24.3 C, Humidity: 35.7%
+2024-09-30 01:04:06,113 : INFO : Message received from iot/sensors/pressure: Seat Pressure: 59, Back Pressure: 90
+2024-09-30 01:04:06,242 : INFO : Data logged to database - Topic: iot/sensors/pressure, Message: Seat Pressure: 59, Back Pressure: 90
+2024-09-30 01:04:06,244 : INFO : Pressure data received - Seat: 59, Back: 90
+2024-09-30 01:04:07,474 : INFO : Message received from iot/sensors/accelerometer: Tilt X: 0.96, Tilt Y: -8.15, Tilt Z: -7.18
+2024-09-30 01:04:07,616 : INFO : Data logged to database - Topic: iot/sensors/accelerometer, Message: Tilt X: 0.96, Tilt Y: -8.15, Tilt Z: -7.18
+2024-09-30 01:04:07,617 : INFO : Accelerometer data received - X: 0.96, Y: -8.15
+2024-09-30 01:04:07,617 : INFO : Both data sets received, calculating posture.
+2024-09-30 01:04:07,620 : INFO : Triggering alert: Bad posture detected!
+2024-09-30 01:04:07,621 : INFO : Published message to iot/alerts: Bad posture detected!
+2024-09-30 01:04:07,698 : INFO : Message received from iot/alerts: Bad posture detected!
+2024-09-30 01:04:07,699 : INFO : Ignoring message received from the broker as it was recently published by this client.
+2024-09-30 01:04:08,844 : INFO : Message received from iot/sensors/dht: Temperature: 26.7 C, Humidity: 31.8%
+2024-09-30 01:04:09,020 : INFO : Data logged to database - Topic: iot/sensors/dht, Message: Temperature: 26.7 C, Humidity: 31.8%
+2024-09-30 01:04:18,841 : INFO : Message received from iot/sensors/dht: Temperature: 29.8 C, Humidity: 44.6%
+2024-09-30 01:04:18,973 : INFO : Data logged to database - Topic: iot/sensors/dht, Message: Temperature: 29.8 C, Humidity: 44.6%
+2024-09-30 01:04:18,973 : INFO : Message received from iot/alerts: <p style='color:blue;'>High temperature detected: 29.8°C</p>
+2024-09-30 01:04:19,105 : INFO : Data logged to database - Topic: iot/alerts, Message: <p style='color:blue;'>High temperature detected: 29.8°C</p>
+2024-09-30 01:04:21,114 : INFO : Message received from iot/sensors/pressure: Seat Pressure: 61, Back Pressure: 73
+2024-09-30 01:04:21,265 : INFO : Data logged to database - Topic: iot/sensors/pressure, Message: Seat Pressure: 61, Back Pressure: 73
+2024-09-30 01:04:21,267 : INFO : Pressure data received - Seat: 61, Back: 73
+2024-09-30 01:04:22,555 : INFO : Message received from iot/sensors/accelerometer: Tilt X: -9.84, Tilt Y: -1.3, Tilt Z: 0.88
+2024-09-30 01:04:22,694 : INFO : Data logged to database - Topic: iot/sensors/accelerometer, Message: Tilt X: -9.84, Tilt Y: -1.3, Tilt Z: 0.88
+2024-09-30 01:04:22,698 : INFO : Accelerometer data received - X: -9.84, Y: -1.3
+2024-09-30 01:04:22,698 : INFO : Both data sets received, calculating posture.
+2024-09-30 01:04:22,699 : INFO : Triggering alert: Good posture!
+2024-09-30 01:04:22,702 : INFO : Published message to iot/alerts: Good posture!
+2024-09-30 01:04:22,778 : INFO : Message received from iot/alerts: Good posture!
+2024-09-30 01:04:22,779 : INFO : Ignoring message received from the broker as it was recently published by this client.
+2024-09-30 01:04:28,848 : INFO : Message received from iot/sensors/dht: Temperature: 26.6 C, Humidity: 49.8%
+2024-09-30 01:04:28,980 : INFO : Data logged to database - Topic: iot/sensors/dht, Message: Temperature: 26.6 C, Humidity: 49.8%
+2024-09-30 01:04:36,161 : INFO : Message received from iot/sensors/pressure: Seat Pressure: 67, Back Pressure: 74
+2024-09-30 01:04:36,274 : INFO : Data logged to database - Topic: iot/sensors/pressure, Message: Seat Pressure: 67, Back Pressure: 74
+2024-09-30 01:04:36,275 : INFO : Pressure data received - Seat: 67, Back: 74
+2024-09-30 01:04:37,469 : INFO : Message received from iot/sensors/accelerometer: Tilt X: 3.6, Tilt Y: 0.65, Tilt Z: -7.73
+2024-09-30 01:04:37,615 : INFO : Data logged to database - Topic: iot/sensors/accelerometer, Message: Tilt X: 3.6, Tilt Y: 0.65, Tilt Z: -7.73
+2024-09-30 01:04:37,616 : INFO : Accelerometer data received - X: 3.6, Y: 0.65
+2024-09-30 01:04:37,617 : INFO : Both data sets received, calculating posture.
+2024-09-30 01:04:37,618 : INFO : Triggering alert: Good posture!
+2024-09-30 01:04:37,619 : INFO : Published message to iot/alerts: Good posture!
+2024-09-30 01:04:37,696 : INFO : Message received from iot/alerts: Good posture!
+2024-09-30 01:04:37,696 : INFO : Ignoring message received from the broker as it was recently published by this client.
+2024-09-30 01:04:38,841 : INFO : Message received from iot/sensors/dht: Temperature: 23.8 C, Humidity: 44.1%
+2024-09-30 01:04:38,998 : INFO : Data logged to database - Topic: iot/sensors/dht, Message: Temperature: 23.8 C, Humidity: 44.1%
+2024-09-30 01:04:48,850 : INFO : Message received from iot/sensors/dht: Temperature: 23.8 C, Humidity: 30.1%
+2024-09-30 01:04:48,994 : INFO : Data logged to database - Topic: iot/sensors/dht, Message: Temperature: 23.8 C, Humidity: 30.1%
+2024-09-30 01:04:51,106 : INFO : Message received from iot/sensors/pressure: Seat Pressure: 91, Back Pressure: 81
+2024-09-30 01:04:51,252 : INFO : Data logged to database - Topic: iot/sensors/pressure, Message: Seat Pressure: 91, Back Pressure: 81
+2024-09-30 01:04:51,254 : INFO : Pressure data received - Seat: 91, Back: 81
+2024-09-30 01:04:52,468 : INFO : Message received from iot/sensors/accelerometer: Tilt X: 0.71, Tilt Y: -2.59, Tilt Z: 6.23
+2024-09-30 01:04:52,602 : INFO : Data logged to database - Topic: iot/sensors/accelerometer, Message: Tilt X: 0.71, Tilt Y: -2.59, Tilt Z: 6.23
+2024-09-30 01:04:52,604 : INFO : Accelerometer data received - X: 0.71, Y: -2.59
+2024-09-30 01:04:52,604 : INFO : Both data sets received, calculating posture.
+2024-09-30 01:04:52,604 : INFO : Triggering alert: Good posture!
+2024-09-30 01:04:52,605 : INFO : Published message to iot/alerts: Good posture!
+2024-09-30 01:04:52,680 : INFO : Message received from iot/alerts: Good posture!
+2024-09-30 01:04:52,680 : INFO : Ignoring message received from the broker as it was recently published by this client.
+2024-09-30 01:04:58,858 : INFO : Message received from iot/sensors/dht: Temperature: 22.5 C, Humidity: 39.8%
+2024-09-30 01:04:59,001 : INFO : Data logged to database - Topic: iot/sensors/dht, Message: Temperature: 22.5 C, Humidity: 39.8%

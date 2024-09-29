@@ -1,0 +1,63 @@
+2024-09-30 01:02:13,995 : INFO : Using database at path: iot_data.db
+2024-09-30 01:02:13,996 : INFO : Ensured sensor_data table exists.
+2024-09-30 01:02:14,105 : INFO : Data Manager started and subscribed to accelerometer, pressure, and DHT topics.
+2024-09-30 01:02:58,855 : INFO : Received message on topic iot/sensors/dht: Temperature: 27.0 C, Humidity: 33.0%
+2024-09-30 01:02:59,016 : INFO : Data logged to database - Topic: iot/sensors/dht, Message: Temperature: 27.0 C, Humidity: 33.0%
+2024-09-30 01:03:06,145 : INFO : Received message on topic iot/sensors/pressure: Seat Pressure: 53, Back Pressure: 86
+2024-09-30 01:03:06,400 : INFO : Data logged to database - Topic: iot/sensors/pressure, Message: Seat Pressure: 53, Back Pressure: 86
+2024-09-30 01:03:07,611 : INFO : Received message on topic iot/sensors/accelerometer: Tilt X: -0.95, Tilt Y: -4.9, Tilt Z: -3.66
+2024-09-30 01:03:07,729 : INFO : Data logged to database - Topic: iot/sensors/accelerometer, Message: Tilt X: -0.95, Tilt Y: -4.9, Tilt Z: -3.66
+2024-09-30 01:03:08,848 : INFO : Received message on topic iot/sensors/dht: Temperature: 20.9 C, Humidity: 56.3%
+2024-09-30 01:03:08,979 : INFO : Data logged to database - Topic: iot/sensors/dht, Message: Temperature: 20.9 C, Humidity: 56.3%
+2024-09-30 01:03:18,966 : INFO : Received message on topic iot/sensors/dht: Temperature: 22.8 C, Humidity: 39.5%
+2024-09-30 01:03:19,075 : INFO : Data logged to database - Topic: iot/sensors/dht, Message: Temperature: 22.8 C, Humidity: 39.5%
+2024-09-30 01:03:21,140 : INFO : Received message on topic iot/sensors/pressure: Seat Pressure: 66, Back Pressure: 64
+2024-09-30 01:03:21,322 : INFO : Data logged to database - Topic: iot/sensors/pressure, Message: Seat Pressure: 66, Back Pressure: 64
+2024-09-30 01:03:22,490 : INFO : Received message on topic iot/sensors/accelerometer: Tilt X: -2.33, Tilt Y: -5.18, Tilt Z: -1.93
+2024-09-30 01:03:22,628 : INFO : Data logged to database - Topic: iot/sensors/accelerometer, Message: Tilt X: -2.33, Tilt Y: -5.18, Tilt Z: -1.93
+2024-09-30 01:03:28,854 : INFO : Received message on topic iot/sensors/dht: Temperature: 27.1 C, Humidity: 39.4%
+2024-09-30 01:03:29,026 : INFO : Data logged to database - Topic: iot/sensors/dht, Message: Temperature: 27.1 C, Humidity: 39.4%
+2024-09-30 01:03:36,109 : INFO : Received message on topic iot/sensors/pressure: Seat Pressure: 80, Back Pressure: 99
+2024-09-30 01:03:36,265 : INFO : Data logged to database - Topic: iot/sensors/pressure, Message: Seat Pressure: 80, Back Pressure: 99
+2024-09-30 01:03:37,489 : INFO : Received message on topic iot/sensors/accelerometer: Tilt X: 8.87, Tilt Y: -1.39, Tilt Z: 8.98
+2024-09-30 01:03:37,671 : INFO : Data logged to database - Topic: iot/sensors/accelerometer, Message: Tilt X: 8.87, Tilt Y: -1.39, Tilt Z: 8.98
+2024-09-30 01:03:38,850 : INFO : Received message on topic iot/sensors/dht: Temperature: 22.3 C, Humidity: 51.5%
+2024-09-30 01:03:39,010 : INFO : Data logged to database - Topic: iot/sensors/dht, Message: Temperature: 22.3 C, Humidity: 51.5%
+2024-09-30 01:03:48,844 : INFO : Received message on topic iot/sensors/dht: Temperature: 24.1 C, Humidity: 31.3%
+2024-09-30 01:03:49,029 : INFO : Data logged to database - Topic: iot/sensors/dht, Message: Temperature: 24.1 C, Humidity: 31.3%
+2024-09-30 01:03:51,110 : INFO : Received message on topic iot/sensors/pressure: Seat Pressure: 98, Back Pressure: 80
+2024-09-30 01:03:51,276 : INFO : Data logged to database - Topic: iot/sensors/pressure, Message: Seat Pressure: 98, Back Pressure: 80
+2024-09-30 01:03:52,505 : INFO : Received message on topic iot/sensors/accelerometer: Tilt X: 2.18, Tilt Y: 2.01, Tilt Z: -9.46
+2024-09-30 01:03:52,681 : INFO : Data logged to database - Topic: iot/sensors/accelerometer, Message: Tilt X: 2.18, Tilt Y: 2.01, Tilt Z: -9.46
+2024-09-30 01:03:58,854 : INFO : Received message on topic iot/sensors/dht: Temperature: 24.3 C, Humidity: 35.7%
+2024-09-30 01:03:59,046 : INFO : Data logged to database - Topic: iot/sensors/dht, Message: Temperature: 24.3 C, Humidity: 35.7%
+2024-09-30 01:04:06,121 : INFO : Received message on topic iot/sensors/pressure: Seat Pressure: 59, Back Pressure: 90
+2024-09-30 01:04:06,276 : INFO : Data logged to database - Topic: iot/sensors/pressure, Message: Seat Pressure: 59, Back Pressure: 90
+2024-09-30 01:04:07,477 : INFO : Received message on topic iot/sensors/accelerometer: Tilt X: 0.96, Tilt Y: -8.15, Tilt Z: -7.18
+2024-09-30 01:04:07,648 : INFO : Data logged to database - Topic: iot/sensors/accelerometer, Message: Tilt X: 0.96, Tilt Y: -8.15, Tilt Z: -7.18
+2024-09-30 01:04:08,845 : INFO : Received message on topic iot/sensors/dht: Temperature: 26.7 C, Humidity: 31.8%
+2024-09-30 01:04:09,020 : INFO : Data logged to database - Topic: iot/sensors/dht, Message: Temperature: 26.7 C, Humidity: 31.8%
+2024-09-30 01:04:18,843 : INFO : Received message on topic iot/sensors/dht: Temperature: 29.8 C, Humidity: 44.6%
+2024-09-30 01:04:19,005 : INFO : Data logged to database - Topic: iot/sensors/dht, Message: Temperature: 29.8 C, Humidity: 44.6%
+2024-09-30 01:04:21,119 : INFO : Received message on topic iot/sensors/pressure: Seat Pressure: 61, Back Pressure: 73
+2024-09-30 01:04:21,297 : INFO : Data logged to database - Topic: iot/sensors/pressure, Message: Seat Pressure: 61, Back Pressure: 73
+2024-09-30 01:04:22,573 : INFO : Received message on topic iot/sensors/accelerometer: Tilt X: -9.84, Tilt Y: -1.3, Tilt Z: 0.88
+2024-09-30 01:04:22,736 : INFO : Data logged to database - Topic: iot/sensors/accelerometer, Message: Tilt X: -9.84, Tilt Y: -1.3, Tilt Z: 0.88
+2024-09-30 01:04:28,851 : INFO : Received message on topic iot/sensors/dht: Temperature: 26.6 C, Humidity: 49.8%
+2024-09-30 01:04:29,013 : INFO : Data logged to database - Topic: iot/sensors/dht, Message: Temperature: 26.6 C, Humidity: 49.8%
+2024-09-30 01:04:36,176 : INFO : Received message on topic iot/sensors/pressure: Seat Pressure: 67, Back Pressure: 74
+2024-09-30 01:04:36,308 : INFO : Data logged to database - Topic: iot/sensors/pressure, Message: Seat Pressure: 67, Back Pressure: 74
+2024-09-30 01:04:37,470 : INFO : Received message on topic iot/sensors/accelerometer: Tilt X: 3.6, Tilt Y: 0.65, Tilt Z: -7.73
+2024-09-30 01:04:37,648 : INFO : Data logged to database - Topic: iot/sensors/accelerometer, Message: Tilt X: 3.6, Tilt Y: 0.65, Tilt Z: -7.73
+2024-09-30 01:04:38,841 : INFO : Received message on topic iot/sensors/dht: Temperature: 23.8 C, Humidity: 44.1%
+2024-09-30 01:04:39,020 : INFO : Data logged to database - Topic: iot/sensors/dht, Message: Temperature: 23.8 C, Humidity: 44.1%
+2024-09-30 01:04:48,857 : INFO : Received message on topic iot/sensors/dht: Temperature: 23.8 C, Humidity: 30.1%
+2024-09-30 01:04:49,026 : INFO : Data logged to database - Topic: iot/sensors/dht, Message: Temperature: 23.8 C, Humidity: 30.1%
+2024-09-30 01:04:51,111 : INFO : Received message on topic iot/sensors/pressure: Seat Pressure: 91, Back Pressure: 81
+2024-09-30 01:04:51,284 : INFO : Data logged to database - Topic: iot/sensors/pressure, Message: Seat Pressure: 91, Back Pressure: 81
+2024-09-30 01:04:52,470 : INFO : Received message on topic iot/sensors/accelerometer: Tilt X: 0.71, Tilt Y: -2.59, Tilt Z: 6.23
+2024-09-30 01:04:52,636 : INFO : Data logged to database - Topic: iot/sensors/accelerometer, Message: Tilt X: 0.71, Tilt Y: -2.59, Tilt Z: 6.23
+2024-09-30 01:04:58,859 : INFO : Received message on topic iot/sensors/dht: Temperature: 22.5 C, Humidity: 39.8%
+2024-09-30 01:04:59,034 : INFO : Data logged to database - Topic: iot/sensors/dht, Message: Temperature: 22.5 C, Humidity: 39.8%
+2024-09-30 01:05:06,095 : INFO : Received message on topic iot/sensors/pressure: Seat Pressure: 73, Back Pressure: 65
+2024-09-30 01:05:06,229 : INFO : Data logged to database - Topic: iot/sensors/pressure, Message: Seat Pressure: 73, Back Pressure: 65
